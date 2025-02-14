@@ -27,6 +27,7 @@ python3 main.py --model <model_name> --type <dataset_typr>
 - The <model_name> can be either gpt_4, gpt_3.5 or gemini.
 - The <dataset_type> can be either demo or full, where the demo dataset uses only 20 prompts (./prompts/demo.csv) for demonstration purposes. The full dataset (./prompts/allprompt.csv) contains 70 prompts, and it will take around 10 minutes to complete the evaluation.
 - e.g.: python3 main.py --model gpt_4 --type demo
+- To reproduce the plots and graphs in the paper, run the **plots_visuals.ipynb** in the visuals directory.
 
 ## Files & Programs  
 
