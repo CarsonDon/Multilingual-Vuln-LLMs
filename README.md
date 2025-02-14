@@ -1,6 +1,6 @@
 # A Framework to Assess Multilingual Vulnerabilities of LLMs
 
-![](https://img.shields.io/badge/license-MIT-000000.svg)
+![](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)
 [![arXiv](https://img.shields.io/badge/arXiv-1909.05658-<color>.svg)]()
 
 **Note:**
@@ -42,6 +42,8 @@ For our experiments, we selected eight languages of different resource levels. U
 - The `./answers` directory contains all LLM-generated responses for the given prompts in selected languages.
 - The './results' directory contains the resultant CSV file, which contains the multilingual answers and their Rejection, Legitimacy, and Relevancy scores.  
 
+# License
+This work has the CC By 4.0 License: Multilingual-Vuln-LLMs © 2025 by Likai Tang is licensed under CC BY 4.0 
 
 # Citations
 If you use this work for academic purposes, please cite our [paper](link to the paper).
