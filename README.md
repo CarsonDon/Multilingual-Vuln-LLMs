@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 All good? Now, simply run the following command.
 ```
-python3 main.py --model <model_name> --type <dataset_typr>
+python3 main.py --model <model_name> --type <dataset_type>
 ```
 - The <model_name> can be either gpt_4, gpt_3.5 or gemini.
 - The <dataset_type> can be either demo or full, where the demo dataset uses only 20 prompts (./prompts/demo.csv) for demonstration purposes. The full dataset (./prompts/allprompt.csv) contains 70 prompts, and it will take around 10 minutes to complete the evaluation.
